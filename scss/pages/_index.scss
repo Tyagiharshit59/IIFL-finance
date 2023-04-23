@@ -1,0 +1,69 @@
+.container--one{
+    max-width: 711px;
+    text-align: left; 
+    gap: 38px
+}
+.main-heading{
+   @extend .container--one;
+   h2{
+    color: $heading-color;
+    font-size: $xl;
+    font-weight: $fw-7;
+    @include xs{
+        font-size: 26px;
+    }
+   }
+   p{
+    font-size: $xm;
+    @include xs{
+        font-size: 14px;
+    }
+   }
+}
+.card2{
+    background-color: $bg-light;
+    padding: 35px 42px;
+    border: none;
+    box-shadow: 0px 0px 7px 2px whitesmoke;
+    border-radius: 20px;
+
+    &__img-box{
+        align-items: center;
+    }
+    &__content-box{
+        color: $gray;
+       
+        h5{
+            font-size: 17px;
+            font-weight: $fw-5;
+        }
+        p{
+            font-size: 13px;
+            font-weight: $fw-3;
+            line-height: 1.7;
+        }
+    }
+}
+
+.modal-dialog{
+    .modal-header{
+        border: none;
+    }
+    .modal-body{
+        padding: 0px;
+        .card{
+            padding: 20px;
+        }
+    }
+}
+.btn-primary-mobile{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, $btn-primary , $btn-secondary);
+    border: none;
+    color: $bg-light;
+    padding: 10px;
+    width: 100%;
+}

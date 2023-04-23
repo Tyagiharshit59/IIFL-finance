@@ -1,0 +1,53 @@
+$btn-secondary:#0747CD;
+$btn-primary:#CF542B;
+$heading-color:#F15F22;
+$bg-light:#FFFFFF;
+$text:#949BA1;
+$bg-input:rgba(222, 225, 230, 1);
+$gray:#262B36;
+
+
+
+// sizing
+$s:4px;
+$xs:6px;
+$m:10px;
+$xm:18px;
+$l:15px;
+$xl:30px;
+
+
+// font weight
+
+$fw-8:800;
+$fw-7:700;
+$fw-6:600;
+$fw-5:500;
+$fw-4:400;
+$fw-3:300;
+
+// font size
+
+$fs-xs:8px;
+$fs-sm:12px;
+$fs-m:19px;
+$fs-ml:25px;
+$fs-l:40px;
+
+
+// font family
+
+$font-family: Roboto,sans-serif;
+
+$img-path: "../assets/images";
+
+
+// media break-point 
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+  );
+

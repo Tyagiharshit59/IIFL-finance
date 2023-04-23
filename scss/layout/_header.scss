@@ -1,0 +1,16 @@
+ul{
+    li{
+        a{
+            font-weight: $fw-5;
+            font-size: $fs-m;
+            width: auto;
+            
+        }
+    }
+}
+
+.navbar-brand{
+    @include xs{
+        width: 50%;
+    }
+}
